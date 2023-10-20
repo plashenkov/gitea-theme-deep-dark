@@ -2,7 +2,7 @@
 
 This is still a work-in-progress project. So fixes are welcome.
 
-See it in action: https://code.plashenkov.com/plashenkov/gitea-theme-deep-dark
+See it in action: https://code.plashenkov.com/plashenkov
 
 ## Installation
 
