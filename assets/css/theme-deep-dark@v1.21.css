@@ -1,7 +1,36 @@
 @import url(theme-arc-green.css);
 
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/JetBrainsMono-Regular.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: italic;
+  font-weight: 400;
+  src: url(../fonts/JetBrainsMono-Italic.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/JetBrainsMono-Bold.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: italic;
+  font-weight: 700;
+  src: url(../fonts/JetBrainsMono-BoldItalic.woff2) format('woff2');
+}
+
 :root {
   --is-dark-theme: true;
+  --fonts-monospace: "JetBrains Mono", monospace, var(--fonts-emoji);
   --color-primary: #87ab63;
   --color-primary-contrast: #fff;
   --color-primary-dark-1: #93b373;
@@ -274,4 +303,8 @@
 #repo-topics {
   padding: 6px 0 11px;
   margin-left: -3px;
+}
+
+.file-view.markup {
+  padding: 1.5em 2em 2em;
 }
