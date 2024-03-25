@@ -1,3 +1,9 @@
+/**
+ * Deep Dark Gitea Theme
+ * @author Yuri Plashenkov
+ * @license MIT
+ */
+
 @import url(theme-arc-green.css);
 
 @font-face {
@@ -59,11 +65,11 @@
   --color-primary-hover: var(--color-primary-light-1);
   --color-primary-active: var(--color-primary-light-2);
   --color-secondary: #424247;
-  --color-secondary-dark-1: #5c6374;
-  --color-secondary-dark-2: #666e81;
-  --color-secondary-dark-3: #7c8497;
-  --color-secondary-dark-4: #8990a1;
-  --color-secondary-dark-5: #959cab;
+  --color-secondary-dark-1: #515358;
+  --color-secondary-dark-2: #71737a;
+  --color-secondary-dark-3: #767778;
+  --color-secondary-dark-4: #9ea0a5;
+  --color-secondary-dark-5: #a0a2a4;
   --color-secondary-dark-6: #a2a8b5;
   --color-secondary-dark-7: #afb4c0;
   --color-secondary-dark-8: #bcc0ca;
@@ -72,30 +78,30 @@
   --color-secondary-dark-11: #e2e3e8;
   --color-secondary-dark-12: #eeeff2;
   --color-secondary-dark-13: #fbfbfc;
-  --color-secondary-light-1: #454a57;
-  --color-secondary-light-2: #383c47;
-  --color-secondary-light-3: #2c2f37;
-  --color-secondary-light-4: #1f2226;
-  --color-secondary-alpha-10: #52576719;
-  --color-secondary-alpha-20: #52576733;
-  --color-secondary-alpha-30: #5257674b;
-  --color-secondary-alpha-40: #52576766;
-  --color-secondary-alpha-50: #52576780;
-  --color-secondary-alpha-60: #52576799;
-  --color-secondary-alpha-70: #525767b3;
-  --color-secondary-alpha-80: #525767cc;
-  --color-secondary-alpha-90: #525767e1;
+  --color-secondary-light-1: #3b3b40;
+  --color-secondary-light-2: #242427;
+  --color-secondary-light-3: #1e1e20;
+  --color-secondary-light-4: #141415;
+  --color-secondary-alpha-10: #42424719;
+  --color-secondary-alpha-20: #42424733;
+  --color-secondary-alpha-30: #4242474b;
+  --color-secondary-alpha-40: #42424766;
+  --color-secondary-alpha-50: #42424780;
+  --color-secondary-alpha-60: #42424799;
+  --color-secondary-alpha-70: #424247b3;
+  --color-secondary-alpha-80: #424247cc;
+  --color-secondary-alpha-90: #424247e1;
   --color-secondary-button: var(--color-secondary-dark-4);
   --color-secondary-hover: var(--color-secondary-dark-3);
   --color-secondary-active: var(--color-secondary-dark-2);
   --color-console-fg: #eeeff2;
-  --color-console-fg-subtle: #959cab;
-  --color-console-bg: #262936;
-  --color-console-border: #383c47;
-  --color-console-hover-bg: #ffffff16;
-  --color-console-active-bg: #454a57;
-  --color-console-menu-bg: #383c47;
-  --color-console-menu-border: #5c6374;
+  --color-console-fg-subtle: #9fa4ad;
+  --color-console-bg: #151516;
+  --color-console-border: #252527;
+  --color-console-hover-bg: #ffffff0d;
+  --color-console-active-bg: #323337;
+  --color-console-menu-bg: #242427;
+  --color-console-menu-border: #414145;
   --color-red: #cc4848;
   --color-orange: #cc580c;
   --color-yellow: #cc9903;
@@ -160,8 +166,8 @@
   --color-ansi-bright-magenta: var(--color-pink-light);
   --color-ansi-bright-cyan: var(--color-teal-light);
   --color-ansi-bright-white: var(--color-console-fg);
-  --color-grey: #505665;
-  --color-grey-light: #a1a6b7;
+  --color-grey: #5e6064;
+  --color-grey-light: #acaeb5;
   --color-gold: #b1983b;
   --color-white: #fff;
   --color-diff-removed-word-bg: #6f3333;
@@ -172,7 +178,7 @@
   --color-diff-removed-row-border: #634343;
   --color-diff-moved-row-border: #bcca6f;
   --color-diff-added-row-border: #314a37;
-  --color-diff-inactive: #353846;
+  --color-diff-inactive: #1d1d1e;
   --color-error-border: #a04141;
   --color-error-bg: #522;
   --color-error-bg-active: #744;
@@ -203,7 +209,7 @@
   --color-body: #1b1b1d;
   --color-box-header: #232324;
   --color-box-body: #171718;
-  --color-box-body-highlight: #262b36;
+  --color-box-body-highlight: #1b1b1c;
   --color-text-dark: #dbe0ea;
   --color-text: #cbd0da;
   --color-text-light: #bbbfca;
@@ -211,16 +217,15 @@
   --color-text-light-2: #9a9ea9;
   --color-text-light-3: #8a8e99;
   --color-footer: #171718;
-  --color-timeline: #4c525e;
+  --color-timeline: #424247;
   --color-input-text: #dfe3ec;
   --color-input-background: #171718;
-  --color-input-toggle-background: #454a57;
+  --color-input-toggle-background: #323235;
   --color-input-border: var(--color-secondary);
   --color-input-border-hover: var(--color-secondary-dark-1);
   --color-header-wrapper: #171718;
-  --color-header-wrapper-transparent: #20243000;
   --color-light: #00000028;
-  --color-light-mimic-enabled: rgba(0,0,0,calc(40/255*222/255/var(--opacity-disabled)));
+  --color-light-mimic-enabled: rgba(0, 0, 0, calc(40 / 255 * 222 / 255 / var(--opacity-disabled)));
   --color-light-border: #ffffff28;
   --color-hover: #ffffff19;
   --color-active: #ffffff24;
@@ -230,11 +235,11 @@
   --color-markup-code-block: #ffffff06;
   --color-button: #34343a;
   --color-code-bg: #171718;
-  --color-code-sidebar-bg: #232834;
+  --color-code-sidebar-bg: #141414;
   --color-shadow: #00000060;
-  --color-secondary-bg: #2a2e3a;
+  --color-secondary-bg: #202022;
   --color-text-focus: #fff;
-  --color-expand-button: #3c404d;
+  --color-expand-button: #29292c;
   --color-placeholder-text: #8a8e99;
   --color-editor-line-highlight: var(--color-primary-light-5);
   --color-project-board-bg: var(--color-secondary-light-2);
@@ -247,14 +252,19 @@
   --color-nav-bg: #171718;
   --color-nav-hover-bg: #ffffff19;
   --color-label-text: #dfe3ec;
-  --color-label-bg: #7c84974b;
-  --color-label-hover-bg: #7c8497a0;
-  --color-label-active-bg: #7c8497;
+  --color-label-bg: #6263664b;
+  --color-label-hover-bg: #626366a0;
+  --color-label-active-bg: #626366;
   --color-accent: var(--color-primary-light-1);
   --color-small-accent: var(--color-primary-light-5);
   --color-active-line: #534d1b;
+  --color-secondary-dimmed: #2d2d33;
   accent-color: var(--color-accent);
   color-scheme: dark;
+}
+
+* {
+  scrollbar-color: auto;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -268,6 +278,10 @@
 
 ::-webkit-scrollbar-thumb:hover {
   box-shadow: inset 0 0 0 6px #888;
+}
+
+#navbar {
+  border-bottom-color: var(--color-secondary-dimmed);
 }
 
 #navbar-logo {
@@ -302,9 +316,154 @@
 
 #repo-topics {
   padding: 6px 0 11px;
-  margin-left: -3px;
 }
 
 .file-view.markup {
   padding: 1.5em 2em 2em;
+}
+
+.ui.cards > .card,
+.ui.card {
+  border-radius: 6px;
+  border-color: var(--color-secondary-dimmed);
+  box-shadow: 8px 8px 7px rgba(255, 255, 255, 0.01);
+}
+
+.ui.basic.labels .label,
+.ui.basic.label {
+  border-radius: 9px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.ui.labeled.button:not([class*=left\ labeled]) > .label,
+.ui[class*=left\ labeled].button > .button {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.ui.button:hover,
+.ui.basic.buttons .button:hover,
+.ui.basic.button:hover {
+  background: #3e3e45;
+}
+
+.ui.active.button,
+.ui.button:active,
+.ui.active.button:active,
+.ui.active.button:hover,
+.ui.basic.buttons .button:active,
+.ui.basic.button:active,
+.ui.basic.buttons .active.button,
+.ui.basic.active.button,
+.ui.basic.buttons .active.button:hover,
+.ui.basic.active.button:hover {
+  background: #232326;
+}
+
+.repo-buttons .ui.labeled.button > .label:hover {
+  color: var(--color-text);
+  background: #3e3e45;
+}
+
+.repo-buttons .ui.labeled.button > .label:active {
+  background: #232326;
+}
+
+.ui.cards > .card > .extra,
+.ui.card > .extra {
+  border-top-color: var(--color-secondary-dimmed) !important;
+}
+
+.user.profile .ui.card .extra.content > ul > li:not(:last-child) {
+  border-bottom-color: var(--color-secondary-dimmed);
+}
+
+.label-list {
+  margin-left: 4px;
+}
+
+.organization.profile .org-visibility {
+  margin-left: 11px;
+}
+
+.page-footer {
+  border-top-color: var(--color-secondary-dimmed);
+}
+
+.dashboard .divider,
+.profile .divider {
+  visibility: hidden;
+}
+
+.dashboard > .divider {
+  visibility: visible;
+  border-top-color: var(--color-secondary-dimmed);
+}
+
+.code-inner {
+  font-variant-ligatures: none;
+  font-feature-settings: "liga" 0;
+}
+
+.ui.multiple.dropdown > .label {
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.2) inset;
+}
+
+.ui.modal > .header {
+  border-color: var(--color-secondary-dimmed);
+}
+
+.ui.modal > .actions,
+.ui.modal .content + .actions,
+.ui.modal .content + form > .actions {
+  border-radius: 0 0 4px 4px;
+  border-top: 1px solid var(--color-secondary-dimmed);
+}
+
+.ui.toggle.checkbox input:focus~label:before,
+.ui.toggle.checkbox label:hover:before {
+  background-color: #414143;
+}
+
+.vch__day__square,
+.vch__legend__wrapper rect {
+  rx: 2;
+  ry: 2;
+}
+
+img[alt="404"] {
+  width: 256px;
+}
+
+.repository .repository-summary .segment.language-stats {
+  gap: 0;
+  overflow: visible;
+  border-top: none;
+  width: calc(100% + 2px);
+  height: 11px;
+  margin: 0 -1px -1px !important;
+}
+
+.repository .repository-summary .segment.language-stats > .bar {
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.15);
+}
+
+.repository .repository-summary .segment.language-stats > .bar:first-child {
+  flex: 1;
+  border-bottom-left-radius: 4px;
+}
+
+.repository .repository-summary .segment.language-stats > .bar:last-child {
+  border-bottom-right-radius: 4px;
+}
+
+.repository .repository-summary > .language-stats-details {
+  border-radius: 4px 4px 0 0;
+}
+
+.repository #clone-panel > button.primary {
+  border: 1px solid var(--color-primary-dark-2) !important;
+  margin-right: -1px;
+  z-index: 1;
 }
